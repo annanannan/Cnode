@@ -1,0 +1,214 @@
+@import '~antd/dist/antd.css';
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style:none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+/*header*/
+.headerwrap{
+  height:50px;
+  background-color:#444;
+}
+.headerwrap header{
+  width:1200px;
+  margin:0 auto;
+}
+.headerwrap img{
+  width:120px;
+  float:left;
+  margin-top:10px;
+}
+.headerwrap a{
+  margin:0 20px;
+  color:#fff;
+}
+.main{
+  width:1200px;
+  margin:30px auto;
+}
+.content{
+  width:900px;
+  float:left;
+  border:2px solid red;
+}
+.top button{
+  border:none;
+  border-radius: 5px;
+  font-size:14px;
+  background-color: #F0F0F0;
+  margin-right:30px;
+  color: green;
+}
+.top a{
+  color:black;
+}
+.Righter{
+  width:280px;
+  height:100%;
+  float:right;
+  padding-left:10px;
+  padding-top:20px;
+  overflow: hidden;
+}
+.a1{
+  width: 235px;
+  height: 130px;
+  background-color: ghostwhite;
+}
+.a1 p{
+  margin-left: 6px;
+}
+.b1{
+  padding-top: 15px;
+  font-size: 13px;
+}
+.b2{
+  margin-top: 10px;
+  padding-top: 15px;
+  font-size: 5px;
+}
+.b2 a{
+  color: rgb(126, 122, 122);
+  margin: 0 5px 0 5px;
+}
+.b2 a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.b3{
+    font-size: 13px;
+    display: block;
+    width: 125px;
+    height: 40px;
+    background-color: rgb(13, 202, 223);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.b3:hover{
+  background-color: rgb(13, 175, 193)
+}
+.a2{
+  width: 235px;
+  background-color: ghostwhite;
+  margin-top: 10px;
+}
+.a2 img{
+  width: 223px;
+  height: 60px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.a3{
+  height: 200px;
+  font-size: 13px;
+  background-color: ghostwhite;
+  margin-top: 10px;}
+.a3 li{
+    display: block;
+    width: 17em;
+    height: 30px;
+    margin-left: 6px;overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    color: rgb(126, 122, 122);
+    cursor: pointer;
+}
+.a5{
+  background-color: white;
+}
+.a5 img{
+  width: 200px;
+  height: 100%;
+  padding-left: 6px;
+  cursor: pointer;
+}
+
+.list1{
+  height:30px;
+  width:30px;
+}
+.list{
+  position: relative;
+}
+.list li{
+  border-bottom:1px solid;
+  margin:10px 0px 10px 0px;
+}
+.list img{
+  margin-right:10px;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+.list a{
+  margin-left:10px;
+  position: absolute;
+  left:120px;
+  overflow: hidden;
+  font-size:16px;
+  height:23px;
+  width:600px;
+}
+.count1{
+  color:purple;
+  font-size:18px;
+}
+.count2{
+  margin-right:20px;
+  font-size:14px;
+  color:gray;
+}
+.listtime{
+  float:right;
+  font-size:14px;
+}
+.list2{
+  width:20px;
+  height:20px;
+  float:right;
+  position: absolute;
+  right:50px;
+}
+
+.login1 input{
+  height:25px;
+  width:250px;
+  border:1px solid gray;
+  margin-bottom:30px;
+  border-radius: 5px;
+  
+}
+.login{
+  width:100%;
+  height:30px;
+  background:#F0F0F0;
+  padding: 6px 16px 6px;
+}
+.login1{
+  padding-top:50px;
+  padding-left:100px;
+}
+#login2{
+  border-radius: 5px;
+  background:blue;
+  margin-left: 100px;
+  width:100px;
+  height:40px;
+  color:white;
+}
+.login button{
+  border:none;
+  color:green;
+  background-color: #F0F0F0;
+}
+
